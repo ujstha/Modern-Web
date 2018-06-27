@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	
+  	<title>My Projects</title>
+  	<!--linking external style sheet-->
+  	<link rel="stylesheet" href="../styles/projects.css">
+</head>
+<!-- calling function on body to load immediately -->
+<body onload="onLoad()" onscroll="onScroll()">
+	<!-- header/navbar section begins -->
+	<header>
+		<div id="logo">
+			<p>Ujjawal</p>					
+		</div>
+		<nav>
+			<a href="index.html">Home</a>
+			<a href="skills.html">Skills</a>
+			<a href="projects.html">Projects</a>
+			<a href="gallery.html">Gallery</a>
+			<a href="contact.html">Contact</a>
+			<a href="somemore.html">Some More</a>
+		</nav>
+	</header>
+	<!-- header/navbar section ends here -->
+	<!-- main content in the middle part begins -->
+	<div class="img-container">
+	    <div class="img-text">
+	    	<span class="project-name">
+	       		My Projects
+	       		<p>
+	       			Here are some of my projects I did alone and some by collaborating with my class group.
+	       		</p>
+	    	</span>
+	    </div>
+	</div>  	
+
+  	<section class="parallax-section" onmouseover="clickEvent()">
+        <h3>Project One</h3>
+        <p>
+        	This is a project I did in Animation course. The project was to develop an animated website related to movie hall. The website where you can see the show time of the movie, watch trailer, book tickets, etc. The restriction in this project was to make this project using only HTML, CSS and JavaScript. It was an individual project.
+	    </p>
+	    <p>
+	    	Image is shown below as parallax.
+	    </p>
+  	</section>
+  	<div class="img-container1">
+    	<div class="img-text" onmouseover="clickEvent()">
+      		<span class="project-name">
+        		Project One Image
+      		</span>
+    	</div>
+  	</div>
+
+  	<section class="parallax-section" onmouseover="clickEvent2()">
+    	<h3>Project Two</h3>
+        <p>
+        	This is a project I did in Interactive Multimedia Course. The task was to make a webpage using HTML, CSS and JavaScript, AJAX and WebSocket. It was an individual project.
+	    </p>
+	    <p>
+	    	Image is shown below as parallax.
+	    </p>
+  	</section>
+  	<div class="img-container2">
+    	<div class="img-text" onmouseover="clickEvent2()">
+      		<span class="project-name">
+        		Project Two Image
+      		</span>
+    	</div>
+  	</div>
+
+  	<section class="parallax-section" onmouseover="clickEvent3()">
+    	<h3>Project Three</h3>
+        <p>
+        	This is a full-stack project with Back-end. Technologies like ReactJS as Front-end and Firebase as Back-end are being used. This project is still going on. It's a group project with a team member of 4 people.
+	    </p>
+	    <p>
+	    	Image is shown below as parallax.
+	    </p>
+  	</section>
+  	<div class="img-container3">
+	    <div class="img-text" onmouseover="clickEvent3()">
+	    	<span class="project-name">
+	       		Project Three Image
+	    	</span>
+	    </div>
+	</div>
+	<div id="footer">
+		<p id="todayDate"><p>
+	</div>
+	<!-- main content in the middle part ends here -->
+
+	<!-- importing footer javascript -->
+	<script type="text/javascript" src="../js/scripts.js"></script>
+	<!-- importing javascript for alerts and events -->
+	<script type="text/javascript" src="../js/projects.js"></script>
+</body>
+</html>

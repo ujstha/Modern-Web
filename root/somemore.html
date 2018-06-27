@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	
+  	<title>Some More</title>
+  	<!--linking external style sheet-->
+  	<link rel="stylesheet" href="../styles/somemore.css">
+</head>
+<body>
+	<div id="container">
+    <!-- header/navbar section begins -->
+		<header>
+			<div id="logo">
+				<p>Ujjawal</p>					
+			</div>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="skills.html">Skills</a>
+				<a href="projects.html">Projects</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="contact.html">Contact</a>
+				<a href="somemore.html">Some More</a>
+			</nav>
+		</header>
+    <!-- header/navbar section ends here -->
+    	<div id="img-banner">
+    		<h3>This is the page where you can check if the word that user typed is Palindrome in nature or not. Palindrome means to be exact same word no matter where it starts from i.e. either from front or reverse.</h3>
+    	</div>
+    <!-- main content in the middle part begins -->
+		<div id="main-content">
+			<!-- div containing form -->
+			<div id="form">
+				<!-- form to input the value -->
+			    <form>
+				  	<p>Enter a String/Number :</p> 
+				  	<br>
+				  	<input type="text" id="str" name="string" placeholder="Enter a text here to check its Palindrome......" />
+				  	<br>
+				  	<br>
+				  	<button onclick="Palindrome();">Check</button>
+				</form>
+			</div>
+			<div id="footer">
+				<p id="todayDate"><p>
+			</div>
+		</div>
+    <!-- main content in the middle part ends here -->
+	</div>
+
+	<!-- importing footer javascript -->	
+	<script type="text/javascript" src="../js/scripts.js"></script>
+	<!-- importing javascript for somemore page -->
+	<script type="text/javascript" src="../js/somemore.js"></script>
+</body>
+</html>

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+  	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+  	
+  	<title>My Gallery</title>
+  	<!--linking external style sheet-->
+  	<link rel="stylesheet" href="../styles/gallery.css">
+</head>
+<body>
+	<div id="container">
+		<!-- header/navbar section begins -->
+		<header>
+			<div id="logo">
+				<p>Ujjawal</p>					
+			</div>
+			<nav>
+				<a href="index.html">Home</a>
+				<a href="skills.html">Skills</a>
+				<a href="projects.html">Projects</a>
+				<a href="gallery.html">Gallery</a>
+				<a href="contact.html">Contact</a>
+				<a href="somemore.html">Some More</a>
+			</nav>
+		</header>
+		<!-- header/navbar section ends here -->
+		<!-- main content in the middle part begins -->
+		<div id="main-content">
+			<h3>My Gallery</h3>
+			<div class="container">
+				<!-- slides -->
+  				<div class="mySlides">
+    				<div class="numbertext">1 / 4</div>
+    				<img src="../images/IMG_0788.jpg" style="width:100%">
+  				</div>
+
+  				<div class="mySlides">
+    				<div class="numbertext">2 / 4</div>
+    				<img src="../images/DSC_0039.jpg" style="width:100%">
+  				</div>
+
+  				<div class="mySlides">
+    				<div class="numbertext">3 / 4</div>
+    				<img src="../images/IMG_20170626_153328_528.jpg" style="width:100%">
+  				</div>
+    
+  				<div class="mySlides">
+    				<div class="numbertext">4 / 4</div>
+    				<img src="../images/DSC_0083.jpg" style="width:100%">
+  				</div>
+    			<!-- slides arrows -->
+  				<a class="prev" onclick="plusSlides(-1)">❮</a>
+  				<a class="next" onclick="plusSlides(1)">❯</a>
+  				<!-- slides captions -->
+  				<div class="caption-container">
+    				<p id="caption"></p>
+  				</div>
+  				<!-- slides thumbnails -->
+	  			<div class="row">
+	    			<div class="column">
+	      				<img class="demo cursor" src="../images/IMG_0788.jpg" style="width:100%" onclick="currentSlide(1)" alt="First Day in Finland.">
+	    			</div>
+	    			<div class="column">
+	      				<img class="demo cursor" src="../images/DSC_0039.jpg" style="width:100%" onclick="currentSlide(2)" alt="Roaming Around in Rastila Beach, Helsinki.">
+	    			</div>
+	   	 			<div class="column">
+	      				<img class="demo cursor" src="../images/IMG_20170626_153328_528.jpg" style="width:100%" onclick="currentSlide(3)" alt="Day Out with friends to Suomelinna in Summer 2017.">
+	    			</div>
+	    			<div class="column">
+	      				<img class="demo cursor" src="../images/DSC_0083.jpg" style="width:100%" onclick="currentSlide(4)" alt="Way Back to City from Suomelinna in Vikings.">
+	    			</div>
+	  			</div>
+			</div>
+
+			<div id="footer">
+				<p id="todayDate"><p>
+			</div>
+		</div>
+		<!-- main content in the middle part ends here -->
+	</div>
+
+	<!-- importing footer javascript -->	
+	<script type="text/javascript" src="../js/scripts.js"></script>
+	<!-- importing javascript for slider -->
+	<script type="text/javascript" src="../js/galleryslider.js"></script>
+</body>
+</html>
